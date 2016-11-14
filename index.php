@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title></title>
 
-    <link href="lib/css/style.css" rel="stylesheet">
-    <link href="lib/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
   </head>
   <body>
@@ -15,8 +15,8 @@
           <p>Junior Web Developer</p>
     </div>
 
-  <script src="lib/js/jquery-3.1.1.min.js"></script>
-  <script src="lib/js/bootstrap.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   </body>
 </html>
