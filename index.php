@@ -162,21 +162,21 @@
 
       <div class="container1">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4 col-xs-4">
             <a href="#" class="image fit">
               <img src="lib/images/firstSite.JPG" alt="" class="folio" /></a>
                       <header>
                           <h3>First Site Design </h3>
                       </header>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4 col-xs-4">
             <a href="#" class="image fit">
               <img src="lib/images/restaurant.JPG" alt="" class="folio" /></a>
                       <header>
                           <h3>HTML/CSS Design </h3>
                       </header>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4 col-xs-4">
             <a href="#" class="image fit">
               <img src="lib/images/Javascript.JPG" alt="" class="folio" /></a>
                       <header>

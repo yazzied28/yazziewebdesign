@@ -250,9 +250,16 @@ img.folio {
   padding: 0px;
 }
 
-.footer{
+footer{
   text-align: center;
 }
+
+@media screen and  (max-width:533px) {
+  .jumbotron{
+    width: 100%;
+  }
+}
+
 
 /*#nav clickr fontawesome-reorder{
   padding-top: 20px;
