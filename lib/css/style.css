@@ -52,7 +52,7 @@ h1.one {
 }
 
 .push {
-    /*padding-right: 193px;*/
+    padding-left: 79px;
     padding-top: 74px;
     font-family: "Verdana";
     text-align: center;
@@ -98,7 +98,6 @@ a:focus, a:hover {
 }
 
 .jumbotron {
-    background: url(/lib/images/bg.jpg) repeat top left;
     background-color: rgba(0, 0, 0, 0.5);
     margin-bottom: 0px;
     padding-bottom: 65px;
@@ -108,6 +107,7 @@ a:focus, a:hover {
     margin-right: 0px;
     margin-left: 0px;
     padding-bottom: 39px;
+    padding-left: 130px;
 }
 
 /*.content {

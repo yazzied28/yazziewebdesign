@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>
-            My Website
+            Yazzie Web Design
         </title>
 
         <?php require_once ("head-utils.php");?>
@@ -21,10 +21,10 @@
                 font-family: "White Rabbit";
                 font-size: 20px;
                 margin: 10px 0 0 10px;
-                padding-left: 230px;
+                padding-left: 172px;
                 white-space: nowrap;
                 overflow: hidden;
-                width: 50em;
+                width: 51em;
                 animation: type 1s steps(60, end);
             }
 
