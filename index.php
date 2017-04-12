@@ -123,7 +123,7 @@
         <h2 class="two animated fadeInUpBig">
             my name is<strong> Dana Yazzie,</strong></br> and I'm a junior web
             developer from </br>Bloomfield in New Mexico. </br>
-            I co-instruct at Cultivating Coders.
+            I co-instruct at Cultivating Coders. Im Dana. I code.
         </h2>
         <h2 class="about2" >
            My work consists of assisting as an instructor in</br> teaching
@@ -162,21 +162,21 @@
 
       <div class="container1">
         <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-12 col-xs-12">
             <a href="#" class="image fit">
               <img src="lib/images/firstSite.JPG" alt="" class="folio" /></a>
                       <header>
-                          <h3>First Site Design </h3>
+                          <h3>First Site Design545 </h3>
                       </header>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-12 col-xs-12">
             <a href="#" class="image fit">
               <img src="lib/images/restaurant.JPG" alt="" class="folio" /></a>
                       <header>
                           <h3>HTML/CSS Design </h3>
                       </header>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-12 col-xs-12">
             <a href="#" class="image fit">
               <img src="lib/images/Javascript.JPG" alt="" class="folio" /></a>
                       <header>
@@ -237,6 +237,8 @@
       <div class="footer">
         <a href="#nav">Back to the top</a>
       </div>
+
+      <h2>New Website coming soon!</h2>
     </div>
 
 
