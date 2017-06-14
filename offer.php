@@ -27,13 +27,13 @@
       <a class="navbar-brand hidden-lg-up" href="#">Yazzie Web Design</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mx-auto listo">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="who.php">Who we are</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="offer.php">What we offer</a>
           </li>
           <li class="nav-item">
@@ -49,16 +49,10 @@
     <!-- Begin page content -->
     <div class="container">
       <div class="mt-3">
-        <h1 style="font-family:'Oswald';font-weight:300;">Hello!</h1>
+        <h1 style="font-family:'Oswald';font-weight:300;">What we offer!</h1>
       </div>
-      <p class="lead">My name is <strong>Dana Yazzie</strong>,
-        and I'm a junior web developer from
-        Bloomfield, New Mexico.
-        I instruct at Cultivating Coders.
-        I am also working as a software developer.
-        </p>
-      <p>A little more about me...</p>
-      <p>I love being outdoors and of course running and walking.</p>
+      <p class="lead">Our services offer web design.</p>
+      <p>Want a website done? We got you. </p>
     </div>
 
     <?php require_once 'footer.php'; ?>
