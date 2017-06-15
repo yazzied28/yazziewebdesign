@@ -59,6 +59,7 @@
         </p>
       <p>A little more about me...</p>
       <p>I love being outdoors and of course running and walking.</p>
+      <p>AND, I love coding.</p>
     </div>
 
     <?php require_once 'footer.php'; ?>
