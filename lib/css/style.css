@@ -82,11 +82,11 @@ h2.title{
 /* Contact-Page*/
 /* When i added contact,styles were overridden with bootstrap so we didnt need any padding */
 .col-sm-12.bottomName {
-    padding: 0px;
+    padding: 0;
 }
 
 .col-sm-12.bottomEmail {
-    padding: 0px;
+    padding: 0;
 }
 
 hr.contact {
@@ -124,7 +124,7 @@ body {
   text-align: center;
   margin: 0 auto;
   padding-top: 50px;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
   font: 300 60px 'Oswald', sans-serif;
   letter-spacing: 6px;
   color: #a3a3a3;
@@ -374,3 +374,46 @@ body {
 }
 
 /*  /contact-page  */
+
+/*This is the CSS for the masonry grid-like structure on the projects page*/
+body {
+  margin: 0; background: white;
+}
+div#masonry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 100vw;
+  max-height: 800px;
+  font-size: 0;
+}
+div#masonry img {
+  width: 33.3%;
+  -webkit-transition: .8s opacity;
+  transition: .8s opacity;
+}
+
+div#masonry:hover img { opacity: 0.3; }
+div#masonry:hover img:hover { opacity: 1; }
+
+/* fallback for earlier versions of Firefox */
+
+@supports not (flex-wrap: wrap) {
+  div#masonry { display: block; }
+  div#masonry img {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+/*Projects CSS images*/
+/*img.img-fluid {*/
+    /*max-width:100%;*/
+    /*height:auto;*/
+/*}*/

@@ -73,7 +73,7 @@
 
       ----------------->
 
-    <form class="form-horizontal" role="form" method="post" action="contact.php">
+    <form class="form-horizontal" role="form" method="POST" action="https://formspree.io/redcloudsaboveus01@gmail.com">
 
       <div class="form-group">
         <div class="col-sm-12 bottomName">
@@ -83,11 +83,11 @@
 
       <div class="form-group">
         <div class="col-sm-12 bottomEmail">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="_replyto" value="">
         </div>
       </div>
 
-      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="name"></textarea>
 
       <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
         <div class="button">

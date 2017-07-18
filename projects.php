@@ -57,67 +57,28 @@
         <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc.
           Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
         <p>
-          <a href="#" class="btn btn-primary">Main call to action</a>
-          <a href="#" class="btn btn-secondary">Secondary action</a>
+          <a href="#" class="btn btn-primary">Check out our Projects</a>
+          <a href="contact.php" class="btn btn-secondary">Contact us</a>
         </p>
       </div>
     </section>
 
-    <div class="album text-muted">
-      <div class="container">
-
-        <div class="row">
-          <div class="card">
-            <img src="lib/images/firstSite.JPG" alt="First Site" height="280">
-            <p class="card-text">Hello World. This is my first website that I made with Cultivating Coders.</p>
-          </div>
-          <div class="card">
-            <img src="lib/images/basics.JPG" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img src="lib/images/Javascript.JPG" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-
-          <div class="card">
-            <img src="lib/images/java2.JPG" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img src="lib/images/quiz.JPG" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img src="lib/images/restaurant.JPG" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-
-          <div class="card">
-            <img src="lib/images/general.PNG" href="http://generalradon.com/" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img src="lib/images/" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img src="lib/images/" alt="Card image cap" height="280">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-
-      </div>
+    <div id="masonry">
+        <img src="lib/images/firstSite.JPG" class="img-fluid">
+        <img src="lib/images/basics.JPG" class="img-fluid">
+        <img src="lib/images/java2.JPG" class="img-fluid">
+        <img src="lib/images/Javascript.JPG" class="img-fluid">
+        <img src="lib/images/quiz.JPG" class="img-fluid">
+        <img src="lib/images/general.png" class="img-fluid">
+        <img src="lib/images/restaurant.JPG" class="img-fluid">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/7.jpg" class="img-fluid">
     </div>
 
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Yazzie Web Design &copy; Copyright 2017</span>
+        </div>
     </footer>
 
     <!-- Bootstrap core JavaScript
