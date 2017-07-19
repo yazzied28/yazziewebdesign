@@ -15,7 +15,7 @@
   <body>
 
     <div>
-      <h2 class="title text-center hidden-md-down">Yazzie Web Design</h2>
+      <h2 class="title text-center hidden-md-down">Yazzie Web Design is here</h2>
     </div>
 
     <!-- Fixed navbar -->
